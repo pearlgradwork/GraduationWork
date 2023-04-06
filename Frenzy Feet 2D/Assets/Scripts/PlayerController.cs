@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
         speedMilestoneCount = speedIncreaseMilestone;
 
+        moveSpeedStore = moveSpeed;
+
         speedMilestoneCountStore = speedMilestoneCount;
 
         speedIncreaseMilestoneStore = speedIncreaseMilestone;
