@@ -41,4 +41,9 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Score: " + Mathf.Round (scoreCount);
         hiScoreText.text = "High Score: " + Mathf.Round (hiScoreCount);
     }
+
+    public void AddScore(int pointsToAdd)
+    {
+        scoreCount += pointsToAdd;
+    }
 }
