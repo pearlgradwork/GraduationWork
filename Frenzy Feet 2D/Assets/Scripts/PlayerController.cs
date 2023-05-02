@@ -36,6 +36,9 @@ public class PlayerController : MonoBehaviour
 
     public GameManager theGameManager;
 
+    public AudioSource jumpSound;
+    public AudioSource deathSound;
+
 
     // Start is called before the first frame update
     void Start()
@@ -73,12 +76,13 @@ public class PlayerController : MonoBehaviour
 
         myRigidBody.velocity = new Vector2 (moveSpeed, myRigidBody.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) 
+        if (Input.GetKeyDown(KeyCode.Space)) 
         {
             if (grounded)
             {
                 myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, jumpForce);
                 stoppedJumping = false;
+                jumpSound.Play();
             }
 
             if (!grounded && canDoubleJump)
@@ -87,11 +91,13 @@ public class PlayerController : MonoBehaviour
                 jumpTimeCounter = jumpTime;
                 stoppedJumping = false;
                 canDoubleJump = false;
+                jumpSound.Play();  
+
             }
             
         }
 
-        if(Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0))
+        if(Input.GetKey(KeyCode.Space))
         {
             if(jumpTimeCounter > 0)
             {
@@ -100,7 +106,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyUp (KeyCode.Space) || Input.GetMouseButtonUp(0))
+        if(Input.GetKeyUp(KeyCode.Space))
         {
             jumpTimeCounter = 0;
             stoppedJumping = true;
@@ -123,7 +129,8 @@ public class PlayerController : MonoBehaviour
             theGameManager.RestartGame();
             moveSpeed = moveSpeedStore;
             speedMilestoneCount = speedMilestoneCountStore;
-            speedIncreaseMilestone = speedIncreaseMilestoneStore; 
+            speedIncreaseMilestone = speedIncreaseMilestoneStore;
+            deathSound.Play();
         }
     }
 }
