@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
 
     public DeathMenu theDeathScreen;
 
+    public bool powerUpReset;
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +60,7 @@ public class GameManager : MonoBehaviour
 
         theScoreManager.scoreCount = 0;
         theScoreManager.scoreIncreasing = true;
+        powerUpReset = true;
     }
 
     /*public IEnumerator RestartGameCo ()
