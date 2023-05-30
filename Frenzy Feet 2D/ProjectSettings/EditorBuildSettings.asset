@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Grass.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Snow.unity
+    guid: 633d5b3fe4d06124390500ee651af843
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: 5a91da01d2998a840b4a28cdcd0392e4
   m_configObjects: {}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b23a687a228659943a16d539ddba227d
+guid: dd6da5992553f9b438cdac807a82990c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,16 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +69,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -139,91 +139,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: spikes
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 0
-        width: 126
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eae3e3cb79c15114e828953998227636
-      internalID: -1485518226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snow bombs
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 640
-        width: 104
-        height: 115
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6581d64f0ac923459a4f0a08ae567db
-      internalID: -1082389448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cacti
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 256
-        width: 75
-        height: 102
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e11ffbde7a07b974cbaeef21bfbbbbdb
-      internalID: -2073803994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: poison mushrooms
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 1024
-        width: 72
-        height: 54
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49cb683fe9bb0c648949401b3a248eb3
-      internalID: 63856097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -234,11 +150,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      cacti: -2073803994
-      poison mushrooms: 63856097
-      snow bombs: -1082389448
-      spikes: -1485518226
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
