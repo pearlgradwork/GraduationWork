@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d514e47c29f92304780cb3c9573c6819
   - enabled: 1
+    path: Assets/Scenes/Level Selection.unity
+    guid: 5a4554183f696e940a90c1cecf00bbac
+  - enabled: 1
     path: Assets/Scenes/Grass.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -17,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Desert.unity
     guid: 5a91da01d2998a840b4a28cdcd0392e4
+  - enabled: 1
+    path: Assets/Scenes/Lab.unity
+    guid: e6c1507f7a46e70498f1e655fdf7e55b
   m_configObjects: {}

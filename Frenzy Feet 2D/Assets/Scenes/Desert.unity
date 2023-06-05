@@ -828,7 +828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ade3ba507c2c7f498c21e30e44efb90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuLevel: Main Menu
+  mainMenuLevel: Desert
 --- !u!1 &396148365
 GameObject:
   m_ObjectHideFlags: 0

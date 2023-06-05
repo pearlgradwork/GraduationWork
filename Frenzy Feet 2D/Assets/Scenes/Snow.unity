@@ -828,7 +828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ade3ba507c2c7f498c21e30e44efb90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuLevel: Main Menu
+  mainMenuLevel: Snow
 --- !u!1 &396148365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,7 +1473,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.284219
+  orthographic size: 7.783181
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93937a066d8de5e438c962c3ad3b13c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doublePoints: 1
-  safeMode: 1
+  doublePoints: 0
+  safeMode: 0
   powerupLength: 10
   powerUpSprites:
   - {fileID: -515520485, guid: c9c1b314d2421f145ab5b8d4de8f4057, type: 3}
