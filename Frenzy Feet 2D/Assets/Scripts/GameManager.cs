@@ -17,6 +17,12 @@ public class GameManager : MonoBehaviour
 
     public DeathMenu theDeathScreen;
 
+    public GameObject visualAchievement;
+
+    public Sprite unlockedSprite;
+
+    public AchievementManager achievementManager;
+
     public bool powerUpReset;
    
 

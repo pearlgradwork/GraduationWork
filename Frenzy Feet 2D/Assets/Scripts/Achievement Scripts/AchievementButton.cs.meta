@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 58d337bd4bfd6a541a83c69a12f2dece
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - achievementList: {instanceID: 0}
+  - neutral: {fileID: 77942527, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
+  - hightlight: {fileID: 1763476694, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

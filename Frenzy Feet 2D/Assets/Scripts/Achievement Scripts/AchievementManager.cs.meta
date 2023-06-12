@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 76516095dd9424a4ab36ebad2d2b50f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - achievementPrefab: {fileID: 6790813896318290999, guid: d266ce4b5aa7ff941b1f2fbd27b48493, type: 3}
+  - scrollRect: {instanceID: 0}
+  - achievementMenu: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

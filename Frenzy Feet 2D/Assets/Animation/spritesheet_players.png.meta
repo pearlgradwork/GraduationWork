@@ -125,11 +125,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_players_0
+      name: Idle
       rect:
         serializedVersion: 2
         x: 652
@@ -150,7 +162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_players_1
+      name: Run 1
       rect:
         serializedVersion: 2
         x: 521
@@ -171,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_players_2
+      name: Run 2
       rect:
         serializedVersion: 2
         x: 522
@@ -192,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_players_3
+      name: Jump
       rect:
         serializedVersion: 2
         x: 522
@@ -212,6 +224,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Snow Run 1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 768
+        width: 113
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecbeae4ed260ed4e9d0a45d0a2a18ec
+      internalID: -1664713526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert Run 2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1537
+        width: 108
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b4c13344bf05f4aa26469b3080c2e8
+      internalID: 1356553771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab Jump
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1792
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9805c2e76a837140a500c5229be77ba
+      internalID: 654949489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Land
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1536
+        width: 112
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def5ff7a3f1579f49986a5aa9eb85553
+      internalID: -793133370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -223,10 +319,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_players_1: -525757029
-      spritesheet_players_2: -616749989
-      spritesheet_players_0: 508156457
-      spritesheet_players_3: 172920740
+      Desert Run 2: 1356553771
+      Idle: 508156457
+      Jump: 172920740
+      Lab Jump: 654949489
+      Land: -793133370
+      Run 1: -525757029
+      Run 2: -616749989
+      Snow Run 1: -1664713526
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

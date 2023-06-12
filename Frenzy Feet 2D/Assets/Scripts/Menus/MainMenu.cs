@@ -12,6 +12,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(playGameLevel);
     }
 
+    public void AchievementsMenu()
+    {
+        SceneManager.LoadScene("Achievements");
+    }
+
     public void QuitGame()
     {
         Application.Quit();

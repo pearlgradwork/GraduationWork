@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2792026225026600082}
   - component: {fileID: 2792026225026600083}
   - component: {fileID: -2456521608075253018}
+  - component: {fileID: 6243813724216349335}
   m_Layer: 0
   m_Name: Gold Coin
-  m_TagString: Untagged
+  m_TagString: AchievementList
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,3 +130,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestructionPoint: {fileID: 0}
+--- !u!114 &6243813724216349335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792026225026600080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a22b9f2d4083547ad53bf698dfca0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualAchievement: {fileID: 1645053233743398320, guid: cda1d2e0844ef8e43ab52895e186bad2, type: 3}
+  achievementName1: Loose Change
+  achievementName2: Grand Scheme of Things
+  achievementName3: I see $$
+  achievementName4: How you *lakh* that?
+  achievementName5: First Million
