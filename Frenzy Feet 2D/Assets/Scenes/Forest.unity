@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -230,9 +230,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2dee2cd9cea6c874b9564854fcbb713a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: beb32a75376f97345bd042d8182e3d4a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1374,7 +1374,6 @@ MonoBehaviour:
   visualAchievement: {fileID: 1645053233743398320, guid: cda1d2e0844ef8e43ab52895e186bad2, type: 3}
   unlockedSprite: {fileID: -1171930723, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
   totalPoints: {fileID: 959537249}
-  coinAchievements: {fileID: 2095218812}
 --- !u!4 &483645071
 Transform:
   m_ObjectHideFlags: 0
@@ -1979,6 +1978,7 @@ MonoBehaviour:
   visualAchievement: {fileID: 1645053233743398320, guid: cda1d2e0844ef8e43ab52895e186bad2, type: 3}
   unlockedSprite: {fileID: -1171930723, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
   achievementManager: {fileID: 483645070}
+  achievementMenu: {fileID: 959537251}
   powerUpReset: 1
 --- !u!4 &896264459
 Transform:
@@ -2221,6 +2221,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 436044573051965545, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
+      propertyPath: m_Name
+      value: Exercise Button
+      objectReference: {fileID: 0}
     - target: {fileID: 436044573051965551, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2236,6 +2240,10 @@ PrefabInstance:
     - target: {fileID: 436044573086805087, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436044573335301497, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
+      propertyPath: m_Name
+      value: Exercise
       objectReference: {fileID: 0}
     - target: {fileID: 436044573335301502, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2271,7 +2279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 436044573523590724, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1866.4819
+      value: 1913.2554
       objectReference: {fileID: 0}
     - target: {fileID: 436044573523590724, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2307,7 +2315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 436044573523590724, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 936.75903
+      value: 960.14575
       objectReference: {fileID: 0}
     - target: {fileID: 436044573523590724, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2344,6 +2352,14 @@ PrefabInstance:
     - target: {fileID: 436044573532011451, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeCategory
+      objectReference: {fileID: 0}
+    - target: {fileID: 436044573532011461, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
+      propertyPath: m_Name
+      value: Currency Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 436044573960478537, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
+      propertyPath: m_Name
+      value: Currency
       objectReference: {fileID: 0}
     - target: {fileID: 436044573960478542, guid: 6f529610d3fcaaf41b0530ef76980397, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3380,8 +3396,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152063556}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.288, y: 1.37, z: 0}
-  m_LocalScale: {x: 4.2469373, y: 1.1503, z: 1.9452049}
+  m_LocalPosition: {x: 2.8385, y: 0.0393, z: 0}
+  m_LocalScale: {x: 3.485502, y: 1.1503, z: 1.6791009}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

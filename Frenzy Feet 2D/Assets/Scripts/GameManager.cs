@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
 
     public AchievementManager achievementManager;
 
+    public GameObject achievementMenu;
+
     public bool powerUpReset;
    
 

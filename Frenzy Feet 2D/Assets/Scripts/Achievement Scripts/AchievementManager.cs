@@ -21,8 +21,6 @@ public class AchievementManager : MonoBehaviour
 
     public Text totalPoints;
 
-    public CoinAchievements coinAchievements;
-
     private static AchievementManager instance;               
 
     public static AchievementManager Instance
@@ -44,12 +42,18 @@ public class AchievementManager : MonoBehaviour
     {
         //PlayerPrefs.DeleteAll(); //need to remove before build
 
-        activeButton = GameObject.Find("General Button").GetComponent<AchievementButton>(); 
-        CreateAchievement("General", "Loose Change", "Collect 10 coins", 5, 10);
-        CreateAchievement("General", "Grand Scheme of Things", "Collect 1,000 coins", 10, 1000);
-        CreateAchievement("General", "I see $$", "Collect 10,000 coins", 20, 10000);
-        CreateAchievement("General", "How you *lakh* that?", "Collect 1,00,000", 25, 100000);
-        CreateAchievement("General", "First Million", "Collect 10,00,000 coins", 35, 1000000);
+        activeButton = GameObject.Find("Currency Button").GetComponent<AchievementButton>(); 
+        CreateAchievement("Currency", "Loose Change", "Collect 10 coins", 5, 10);
+        CreateAchievement("Currency", "Grand Scheme of Things", "Collect 1,000 coins", 10, 1000);
+        CreateAchievement("Currency", "I see $$", "Collect 10,000 coins", 20, 10000);
+        CreateAchievement("Currency", "How you *lakh* that?", "Collect 1,00,000", 25, 100000);
+        CreateAchievement("Currency", "First Million", "Collect 10,00,000 coins", 35, 1000000);
+
+        CreateAchievement("Exercise", "Springy", "Jump 5 times", 20, 5);
+        CreateAchievement("Exercise", "High Jumper", "Jump 50 times", 20, 50);
+        CreateAchievement("Exercise", "Gold Medalist", "Jump 100 times", 50, 100);
+        CreateAchievement("Exercise", "Astronaut", "Jump 1000 times", 150, 1000);
+
 
         foreach (GameObject achievementList in GameObject.FindGameObjectsWithTag("AchievementList"))
         {
@@ -64,7 +68,14 @@ public class AchievementManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            EarnAchievement("Springy");
+            EarnAchievement("High Jumper");
+            EarnAchievement("Gold Medalist");
+            EarnAchievement("Astronaut");
 
+        }
     }
 
         public void EarnAchievement(string title)
